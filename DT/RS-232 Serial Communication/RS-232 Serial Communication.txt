@@ -1,0 +1,10 @@
+#Apparatus
+
+@Component Mode
+1. MAX232
+2. CAP-ELEC
+3. JUMPER
+4. COMPIM
+
+@Instruments
+1. Virtual Terminal

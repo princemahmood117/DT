@@ -1,0 +1,36 @@
+#Apparatus
+
+@Component Mode
+1. Operational Amplifier 741
+2. MINRES10K
+3. SW-SPDT
+4. LF398N
+
+
+@Generator Mode
+1. SINE 
+
+@Terminals
+1. Power (741)
+2. Input (LF398N, SW-SPDT)
+3. Output (LF398N - port 5)
+4. Ground
+
+@Set Power & Rename
+1. SW-SPDT
+
+= CARRIER
+set (Pulse) = Amplitude = 12 & Frequency = 50.
+
+***
+
+= CLOCK(upper) = Generators = click & place (DC)  = set (Pulse) 
+Pulsed (High) Voltage = 10
+Frequency = 25
+
+***
+
+= TRAIN(lower) = Generators = click & place (DAPATTERN)  = Pulse width (Secs) = 20m
+
+
+

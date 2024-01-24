@@ -1,0 +1,26 @@
+ASK-
+
+#Apparatus
+
+@Component Mode
+1. CMOS 4016 X 2
+2. 74LS04
+3. MINRES1K ["Resistors"-> Sub-Catagory -> "0.6W Metal Film"]
+
+@Generator Mode
+1. SINE 
+2. PULSE
+
+@Terminals Mode
+1. Ground
+
+@Instruments
+1. Oscilloscope
+
+Double click on SINE wave and set-
+	Amplitude = 5,
+	Frequency = 1000
+
+Double click on PULSE wave and set-
+	Pulsed(High) Voltage =5,
+	Frequency(Hz) =  100.
